@@ -127,8 +127,8 @@ angular
       $scope.data.push(elements2);
 
       console.log(total);
-      if (total.length < 6 || total.length === null) {
-        for (i = 0; total.length < 6; i++) {
+      if (total.length < 7 || total.length === null) {
+        for (i = 0; total.length < 7; i++) {
           total.push([0]);
         }
       }
@@ -196,11 +196,21 @@ angular
         Cinco = total[5];
       }
       console.log(Cinco);
+      var Seis = [];
+      if (total[6].length < 12 || total[6].length === null) {
+        for (i = 0; total[6].length < 12; i++) {
+          total[6].push(0);
+        }
+        Seis = total[6];
+      } else {
+        Seis = total[6];
+      }
+      console.log(Seis);
       //Se suman los índices de cada array y se obtine un array con la suma de las incidencias diarias obtenidas cada hora
       var sumaTotales = [];
       for (i = 0; i < 12; i++) {
         sumaTotales[i] =
-          Cero[i] + Uno[i] + Dos[i] + Tres[i] + Cuatro[i] + Cinco[i];
+          Cero[i] + Uno[i] + Dos[i] + Tres[i] + Cuatro[i] + Cinco[i] + Seis[i];
       }
       console.log(sumaTotales);
       //Se obtiene la media de cada índice del array (se divide entre 7 que son los días de toda una semana)
