@@ -129,7 +129,7 @@ angular
       console.log(total);
       if (total.length < 7 || total.length === null) {
         for (i = 0; total.length < 7; i++) {
-          total.push([0]);
+          total.push([1]);
         }
       }
       console.log(total);
@@ -139,7 +139,7 @@ angular
       var Cero = [];
       if (total[0].length < 12 || total[0].length === null) {
         for (i = 0; total[0].length < 12; i++) {
-          total[0].push(0);
+          total[0].push(1);
         }
         Cero = total[0];
       } else {
@@ -149,7 +149,7 @@ angular
       var Uno = [];
       if (total[1].length < 12 || total[1].length === null) {
         for (i = 0; total[1].length < 12; i++) {
-          total[1].push(0);
+          total[1].push(1);
         }
         Uno = total[1];
       } else {
@@ -159,7 +159,7 @@ angular
       var Dos = [];
       if (total[2].length < 12 || total[2].length === null) {
         for (i = 0; total[2].length < 12; i++) {
-          total[2].push(0);
+          total[2].push(1);
         }
         Dos = total[2];
       } else {
@@ -169,7 +169,7 @@ angular
       var Tres = [];
       if (total[3].length < 12 || total[3].length === null) {
         for (i = 0; total[3].length < 12; i++) {
-          total[3].push(0);
+          total[3].push(1);
         }
         Tres = total[3];
       } else {
@@ -179,7 +179,7 @@ angular
       var Cuatro = [];
       if (total[4].length < 12 || total[4].length === null) {
         for (i = 0; total[4].length < 12; i++) {
-          total[4].push(0);
+          total[4].push(1);
         }
         Cuatro = total[4];
       } else {
@@ -189,7 +189,7 @@ angular
       var Cinco = [];
       if (total[5].length < 12 || total[5].length === null) {
         for (i = 0; total[5].length < 12; i++) {
-          total[5].push(0);
+          total[5].push(1);
         }
         Cinco = total[5];
       } else {
@@ -199,7 +199,7 @@ angular
       var Seis = [];
       if (total[6].length < 12 || total[6].length === null) {
         for (i = 0; total[6].length < 12; i++) {
-          total[6].push(0);
+          total[6].push(1);
         }
         Seis = total[6];
       } else {
